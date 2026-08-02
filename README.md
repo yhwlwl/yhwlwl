@@ -51,10 +51,9 @@ I build tools for learning, campus services, full-stack systems, and digital wat
 ## 其他项目
 
 - **pan-wlm** — 未来梦杂志在线阅读平台，与 STA-PAN 同源，特色是防下载权限拦截：[仓库](https://github.com/yhwlwl/pan-wlm) · [在线站点](https://wlm.stacdqz.tech)
-- **STA Website** — 成都七中 STA 信息展示与活动门户：[仓库](https://github.com/yhwlwl/stacdqz.github.io) · [在线站点](https://yhwlwl.github.io/stacdqz.github.io/)
 - **sleep** — 面向教室大屏午休场景的简洁倒计时工具（Web + Electron）：[仓库](https://github.com/yhwlwl/sleep)
 - **magic** — 伪装成普通计算器的互动魔术网页：[仓库](https://github.com/yhwlwl/magic)
-- **christmas** — 以圣诞节为主题的 Canvas 粒子动画网页：[仓库](https://github.com/yhwlwl/christmas)
+
 
 ## 技术与工具
 
