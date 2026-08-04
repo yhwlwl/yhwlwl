@@ -1,7 +1,6 @@
 # Hi, I'm yhwlwl 👋
 
 High school student at Chengdu No. 7 High School  
-Member of the STA Network Department  
 Always learning, always exploring.
 
 I build tools for learning, campus services, full-stack systems, and digital watermarking research.
