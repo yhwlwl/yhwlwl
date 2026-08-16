@@ -1,6 +1,6 @@
 # Hi, I'm yhwlwl 👋
 
-High school student at Chengdu No. 7 High School  
+High school student at cdqz
 Always learning, always exploring.
 
 I build tools for learning, campus services, full-stack systems, and digital watermarking research.
