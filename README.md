@@ -1,13 +1,13 @@
 # Hi, I'm yhwlwl 👋
 
-High school student at cdqz  
+High school student at Chengdu No.7 High School  
 Always learning, always exploring.
 
 I build tools for learning, campus services, full-stack systems, data-driven products, and visual / algorithmic experiments.
 
 ---
 
-你好，我是 yhwlwl，成都七中的一名高中生。我习惯把学习与生活中遇到的具体问题拆解成需求，再把它做成能真正运行的东西：从学习计划、考试成绩分析、校园文件服务，到数字水印研究和校园文化粒子作品，每一个项目都尽量经历“发现问题 → 设计 → 实现 → 部署 → 真实使用 → 复盘改进”的完整过程。
+你好，我是 yhwlwl @ cdqz。我习惯把学习与生活中遇到的具体问题拆解成需求，再把它做成能真正运行的东西：从学习计划、考试成绩分析、校园文件服务，到数字水印研究和校园文化粒子作品，每一个项目都尽量经历“发现问题 → 设计 → 实现 → 部署 → 真实使用 → 复盘改进”的完整过程。
 
 我还在持续学习，目前的关注方向包括：
 
