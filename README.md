@@ -24,13 +24,13 @@ I build tools for learning, campus services, full-stack systems, data-driven pro
 
 面向长期考试记录的成绩轨迹与分析系统。除了目标分 / 实际分，还记录原始分、赋分 / 最终分、年级 / 班级 / 市区排名、位比、参考人数、科目组合与长期目标，并通过趋势图、雷达、排名分析和深度分析 Beta 去理解长期变化。
 
-项目已经从个人原型进入真实使用阶段。**截至 2026-08-29，生产 Supabase 中已有 9,600+ 个非管理员账号记录、8,800+ 场考试、62,000+ 条单科成绩记录；当前行为分析口径累计 13,000+ Visitor、24,000+ Session 和 240,000+ 产品事件。**
+项目已经从个人原型进入真实使用阶段。**截至 2026-08-29，生产 Supabase 中已有 9,600+ 个普通用户账号记录、8,800+ 场考试、62,000+ 条单科成绩记录；当前行为分析口径累计 13,000+ Visitor、24,000+ Session 和 240,000+ 产品事件。**
 
-[![Score Tracker](https://raw.githubusercontent.com/yhwlwl/score-tracker/main/docs/images/score-tracker-showcase.webp)](https://github.com/yhwlwl/score-tracker)
+[![Score Tracker](https://raw.githubusercontent.com/yhwlwl/score-tracker/main/docs/images/01-score-trend.webp)](https://github.com/yhwlwl/score-tracker)
 
 - 仓库：[github.com/yhwlwl/score-tracker](https://github.com/yhwlwl/score-tracker)
 - 当前版本：v6.0
-- 核心能力：目标 / 实际成绩、原始分 / 赋分、排名与位比、科目组合、长期目标、数据导出、反馈闭环、私有运营后台
+- 核心能力：目标 / 实际成绩、原始分 / 赋分、排名与位比、科目组合、长期目标、统计分析、数据导出、反馈闭环
 - 深度分析 Beta：下场名次预测与 95% 区间、趋势 / 变点检验、异常提醒、分布与状态分析
 - 技术栈：HTML、CSS、Vanilla JavaScript、Supabase Postgres / Edge Functions / Storage、Vercel
 
