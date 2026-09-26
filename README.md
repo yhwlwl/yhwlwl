@@ -24,11 +24,12 @@ I build tools for learning, campus services, full-stack systems, data-driven pro
 
 面向长期考试记录的成绩轨迹与分析系统。除了目标分 / 实际分，还记录原始分、赋分 / 最终分、年级 / 班级 / 市区排名、位比、参考人数、科目组合与长期目标，并通过趋势图、雷达、排名分析和深度分析 Beta 去理解长期变化。
 
-项目已经从个人原型进入真实使用阶段。**截至 2026-08-29，生产 Supabase 中已有 9,600+ 个普通用户账号记录、8,800+ 场考试、62,000+ 条单科成绩记录；当前行为分析口径累计 13,000+ Visitor、24,000+ Session 和 240,000+ 产品事件。**
+项目已经从个人原型进入真实使用阶段。**截至 2026-09-26，生产 Supabase 中已有 11,500+ 个普通用户账号记录、12,400+ 场考试、86,100+ 条单科成绩记录；当前行为分析口径累计 17,100+ Visitor、35,400+ Session 和 359,400+ 产品事件。**
 
-[![Score Tracker](https://raw.githubusercontent.com/yhwlwl/score-tracker/main/docs/images/01-score-trend.webp)](https://github.com/yhwlwl/score-tracker)
+[![Score Tracker](https://github.com/yhwlwl/score-tracker/blob/main/docs/images/01-score-trend.webp?raw=1)](https://github.com/yhwlwl/score-tracker)
 
 - 仓库：[github.com/yhwlwl/score-tracker](https://github.com/yhwlwl/score-tracker)
+- 在线使用：[score.yhwlwl.xyz](https://score.yhwlwl.xyz)
 - 当前版本：v6.0
 - 核心能力：目标 / 实际成绩、原始分 / 赋分、排名与位比、科目组合、长期目标、统计分析、数据导出、反馈闭环
 - 深度分析 Beta：下场名次预测与 95% 区间、趋势 / 变点检验、异常提醒、分布与状态分析
@@ -41,17 +42,12 @@ I build tools for learning, campus services, full-stack systems, data-driven pro
 ![Study Planner](images/study-planner.png)
 
 - 仓库：[github.com/yhwlwl/study-planner](https://github.com/yhwlwl/study-planner)
+- 在线使用：[study-planner.yhwlwl.xyz](https://study-planner.yhwlwl.xyz)
 - 技术栈：React、TypeScript、Vite、PWA、Supabase、IndexedDB
 
 ### STA-PAN（bd-pan）
 
 面向校园文件访问场景的权限化文件平台。整合 AList 存储桥接、Web 前端、服务端网关、数据库、预览、日志与多线路下载，解决网盘分享中的权限、下载限制与预览问题。支持游客进入，权限由管理员按角色和路径规则控制。
-
-![STA-PAN](images/bd-pan.png)
-
-- 仓库：[github.com/yhwlwl/bd-pan](https://github.com/yhwlwl/bd-pan)
-- 在线 Demo：[pan.stacdqz.tech](https://pan.stacdqz.tech)（游客可进入）
-- 技术栈：Next.js、React、AList、PostgreSQL、PDF.js
 
 ### DCT-Pro Watermark
 
@@ -66,7 +62,7 @@ I build tools for learning, campus services, full-stack systems, data-driven pro
 ## 其他项目
 
 - **Campus Particle Wonderland / cdqz-particle-wonderland** — 以成都七中校园文化为灵感的 3D 粒子作品：同一套粒子在校园照片拼图、金色银杏树和校徽之间平滑重组，包含透视投影、旋转矩阵、柏林噪声、图像像素采样与智能吸附：[仓库](https://github.com/yhwlwl/cdqz-particle-wonderland)
-- **pan-wlm** — 未来梦杂志在线阅读平台，与 STA-PAN 同源，特色是防下载权限拦截：[仓库](https://github.com/yhwlwl/pan-wlm) · [在线站点](https://wlm.stacdqz.tech)
+- **pan-wlm** — 未来梦杂志在线阅读平台，与 STA-PAN 同源，特色是防下载权限拦截。
 - **sleep** — 面向教室大屏午休场景的简洁倒计时工具（Web + Electron）：[仓库](https://github.com/yhwlwl/sleep)
 - **magic** — 伪装成普通计算器的互动魔术网页：[仓库](https://github.com/yhwlwl/magic)
 
@@ -84,6 +80,12 @@ I build tools for learning, campus services, full-stack systems, data-driven pro
 ## 说明
 
 这里展示的项目都来自真实需求或明确的研究 / 创作目标，处于“持续迭代”状态：有的已经有真实用户和运营数据，有的已稳定服务内部使用，有的仍是研究原型或创意作品。欢迎浏览各仓库的 README 与文档索引，了解每个项目的具体边界。
+
+## 支持开发
+
+如果你愿意支持我的话，欢迎赞助哦
+
+[爱发电 · afdian.com/a/yhwlwl](https://afdian.com/a/yhwlwl)
 
 ## 联系
 
