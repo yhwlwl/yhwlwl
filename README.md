@@ -26,7 +26,7 @@ I build tools for learning, campus services, full-stack systems, data-driven pro
 
 项目已经从个人原型进入真实使用阶段。**截至 2026-09-26，生产 Supabase 中已有 11,500+ 个普通用户账号记录、12,400+ 场考试、86,100+ 条单科成绩记录；当前行为分析口径累计 17,100+ Visitor、35,400+ Session 和 359,400+ 产品事件。**
 
-[![Score Tracker](https://github.com/yhwlwl/score-tracker/blob/main/docs/images/01-score-trend.webp?raw=1)](https://github.com/yhwlwl/score-tracker)
+[![Score Tracker](images/score-tracker.png)](https://github.com/yhwlwl/score-tracker)
 
 - 仓库：[github.com/yhwlwl/score-tracker](https://github.com/yhwlwl/score-tracker)
 - 在线使用：[score.yhwlwl.xyz](https://score.yhwlwl.xyz)
@@ -45,9 +45,24 @@ I build tools for learning, campus services, full-stack systems, data-driven pro
 - 在线使用：[study-planner.yhwlwl.xyz](https://study-planner.yhwlwl.xyz)
 - 技术栈：React、TypeScript、Vite、PWA、Supabase、IndexedDB
 
+### 成都七中科学技术协会官网
+
+成都七中科学技术协会（STA）官方网站。用于展示协会介绍、发展历程、组织架构、六大部门、近期活动与招新信息，并提供公告系统、内容后台、版本恢复、访问统计、审计日志和管理员权限控制。前台以原生 Web 技术实现科技感视觉与交互，后台和数据能力由 Supabase 提供。
+
+![成都七中科学技术协会官网](images/cdqzsta-website.png)
+
+- 仓库：[github.com/yhwlwl/cdqzsta-website](https://github.com/yhwlwl/cdqzsta-website)
+- 官网：[www.stacdqz.tech](https://www.stacdqz.tech)
+- 核心能力：协会展示、公告发布、可视化内容编辑、版本回滚、访问分析、审计日志、权限管理
+- 技术栈：HTML、CSS、Vanilla JavaScript、GSAP、Lenis、Supabase Postgres / Edge Functions / Storage、Vercel
+
 ### STA-PAN（bd-pan）
 
 面向校园文件访问场景的权限化文件平台。整合 AList 存储桥接、Web 前端、服务端网关、数据库、预览、日志与多线路下载，解决网盘分享中的权限、下载限制与预览问题。支持游客进入，权限由管理员按角色和路径规则控制。
+
+![STA-PAN](images/bd-pan.png)
+
+- 技术栈：Next.js、React、AList、PostgreSQL、PDF.js
 
 ### DCT-Pro Watermark
 
@@ -74,6 +89,7 @@ I build tools for learning, campus services, full-stack systems, data-driven pro
 
 - Score Tracker 的深度分析、科目 / 组合口径与真实产品数据闭环；
 - Study Planner 的排期算法优化；
+- 成都七中科学技术协会官网的内容系统、公告与交互体验；
 - STA-PAN 系列平台的访问控制与阅读体验；
 - DCT-Pro 2.0 的设计与开发。
 
