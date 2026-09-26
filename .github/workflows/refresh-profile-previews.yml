@@ -1,0 +1,50 @@
+name: Refresh profile previews
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/refresh-profile-previews.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Build preview images
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p images
+
+          python -m pip install --quiet pillow
+          curl -fL --retry 3 "https://raw.githubusercontent.com/yhwlwl/score-tracker/main/docs/images/01-score-trend.webp" -o /tmp/score-tracker.webp
+          python - <<'PY'
+          from PIL import Image
+          im = Image.open('/tmp/score-tracker.webp').convert('RGB')
+          im.save('images/score-tracker.png', 'PNG', optimize=True)
+          PY
+
+          CHROME="$(command -v google-chrome || command -v google-chrome-stable || command -v chromium || command -v chromium-browser)"
+          "$CHROME" --headless --disable-gpu --no-sandbox --hide-scrollbars --window-size=1440,900 --virtual-time-budget=7000 --screenshot=images/cdqzsta-website.png "https://www.stacdqz.tech/"
+
+      - name: Commit previews
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add images/score-tracker.png images/cdqzsta-website.png
+          if git diff --cached --quiet; then
+            echo "No preview changes"
+            exit 0
+          fi
+          git commit -m "Refresh profile preview images"
+          git push
