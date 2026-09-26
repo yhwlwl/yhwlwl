@@ -26,7 +26,7 @@ I build tools for learning, campus services, full-stack systems, data-driven pro
 
 项目已经从个人原型进入真实使用阶段。**截至 2026-09-26，生产 Supabase 中已有 11,500+ 个普通用户账号记录、12,400+ 场考试、86,100+ 条单科成绩记录；当前行为分析口径累计 17,100+ Visitor、35,400+ Session 和 359,400+ 产品事件。**
 
-[![Score Tracker](images/score-tracker.png)](https://github.com/yhwlwl/score-tracker)
+[![Score Tracker](images/IMG_4295.jpeg)](https://github.com/yhwlwl/score-tracker)
 
 - 仓库：[github.com/yhwlwl/score-tracker](https://github.com/yhwlwl/score-tracker)
 - 在线使用：[score.yhwlwl.xyz](https://score.yhwlwl.xyz)
