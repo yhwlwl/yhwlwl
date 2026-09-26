@@ -25,13 +25,8 @@ jobs:
           set -euo pipefail
           mkdir -p images
 
-          python -m pip install --quiet pillow
           curl -fL --retry 3 "https://raw.githubusercontent.com/yhwlwl/score-tracker/main/docs/images/01-score-trend.webp" -o /tmp/score-tracker.webp
-          python - <<'PY'
-          from PIL import Image
-          im = Image.open('/tmp/score-tracker.webp').convert('RGB')
-          im.save('images/score-tracker.png', 'PNG', optimize=True)
-          PY
+          ffmpeg -y -i /tmp/score-tracker.webp -frames:v 1 images/score-tracker.png
 
           CHROME="$(command -v google-chrome || command -v google-chrome-stable || command -v chromium || command -v chromium-browser)"
           "$CHROME" --headless --disable-gpu --no-sandbox --hide-scrollbars --window-size=1440,900 --virtual-time-budget=7000 --screenshot=images/cdqzsta-website.png "https://www.stacdqz.tech/"
