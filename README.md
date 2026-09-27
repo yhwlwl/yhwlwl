@@ -71,7 +71,7 @@ I build tools for learning, campus services, full-stack systems, data-driven pro
 ![DCT-Pro Watermark](images/watermark.png)
 
 - 仓库：[github.com/yhwlwl/watermark](https://github.com/yhwlwl/watermark)
-- Release：[DCT-Pro Research Workbench v13 for Windows](https://github.com/yhwlwl/watermark/releases/tag/v13.0)（`v13_ex.exe`，含 SHA-256）
+- Release：[DCT-Pro Research Workbench v13 for Windows](https://github.com/yhwlwl/watermark/releases/tag/v13.0)（`v13_ex.exe`）
 - 技术栈：Python、PyQt6、OpenCV、交互式 Web 可视化
 
 ## 其他项目
@@ -83,7 +83,7 @@ I build tools for learning, campus services, full-stack systems, data-driven pro
 
 ## 技术与工具
 
-在项目中使用过：React、TypeScript、Next.js、Vite、Tailwind CSS、HTML / CSS / JavaScript、Python、Electron、PostgreSQL、Supabase、AList、GitHub Actions、GitHub Pages、Vercel 等。这些只是“用过且继续在学”的工具，不是自我评级的依据。
+在项目中使用过：React、TypeScript、Next.js、Vite、Tailwind CSS、HTML / CSS / JavaScript、Python、Electron、PostgreSQL、Supabase、AList、GitHub Actions、GitHub Pages、Vercel 等。这些是我“用过且继续在学”的，未来我也会尝试更多的工具。
 
 ## 正在推进的方向
 
@@ -95,7 +95,7 @@ I build tools for learning, campus services, full-stack systems, data-driven pro
 
 ## 说明
 
-这里展示的项目都来自真实需求或明确的研究 / 创作目标，处于“持续迭代”状态：有的已经有真实用户和运营数据，有的已稳定服务内部使用，有的仍是研究原型或创意作品。欢迎浏览各仓库的 README 与文档索引，了解每个项目的具体边界。
+这里展示的项目都来自真实需求或明确的研究 / 创作目标，处于“持续迭代”状态：有的已经有真实用户和运营数据，有的已稳定服务内部使用，有的仍是研究原型或创意作品。欢迎浏览各仓库的 README 与文档索引，了解每个项目的具体信息。
 
 ## 支持开发
 
