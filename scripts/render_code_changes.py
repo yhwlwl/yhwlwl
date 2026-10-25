@@ -94,7 +94,7 @@ def main():
     Path(args.output).parent.mkdir(parents=True, exist_ok=True)
     frames[0].save(
         args.output, format="GIF", save_all=True, append_images=frames[1:],
-        duration=durations, loop=0, optimize=True, disposal=2,
+        duration=durations, optimize=True, disposal=2,
     )
     print(f"Generated animated card: +{added:,}, -{removed:,}, {repositories} repositories")
 
