@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="168" viewBox="0 0 680 168" role="img" aria-label="Lines of code changed statistics awaiting the first GitHub Actions run">
+  <rect x="1" y="1" width="678" height="166" rx="12" fill="#ffffff" stroke="#d0d7de"/>
+  <path d="M28 32h20M38 22v20" stroke="#2da44e" stroke-width="3" stroke-linecap="round"/>
+  <path d="M30 63h16" stroke="#cf222e" stroke-width="3" stroke-linecap="round"/>
+  <text x="66" y="42" fill="#0969da" font-size="19" font-weight="600" font-family="Arial,sans-serif">Lines of Code Changed</text>
+  <text x="28" y="99" fill="#57606a" font-size="16" font-family="Arial,sans-serif">Added lines  ·  Deleted lines  ·  Change history</text>
+  <text x="28" y="132" fill="#57606a" font-size="14" font-family="Arial,sans-serif">Statistics will appear after the first Metrics workflow run.</text>
+</svg>
