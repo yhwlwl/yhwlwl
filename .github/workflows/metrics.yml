@@ -51,11 +51,24 @@ jobs:
           cp /metrics_renders/metrics.plugin.lines.svg ./metrics.plugin.lines.svg
           python scripts/render_code_changes.py --input metrics.plugin.lines.svg --output metrics.plugin.lines.gif
 
+      - name: Switch profile to the GIF after generation
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('README.md')
+          text = p.read_text(encoding='utf-8')
+          old = 'src="https://raw.githubusercontent.com/yhwlwl/yhwlwl/main/metrics.plugin.lines.svg?v=20261025-1"'
+          new = 'src="./metrics.plugin.lines.gif"'
+          if new not in text:
+              if old not in text:
+                  raise RuntimeError('Could not locate existing metrics card in README')
+              p.write_text(text.replace(old, new, 1), encoding='utf-8')
+          PY
       - name: Commit updated statistics and GIF
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add metrics.plugin.lines.svg metrics.plugin.lines.gif
+          git add README.md metrics.plugin.lines.svg metrics.plugin.lines.gif
           if ! git diff --cached --quiet; then
             git commit -m "chore(profile): refresh animated code metrics [skip ci]"
             git pull --rebase origin main
