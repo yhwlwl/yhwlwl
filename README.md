@@ -1,8 +1,3 @@
-<!-- Profile banner: customize colors/text with capsule-render URL parameters -->
-<p align="center">
-  <img width="100%" alt="yhwlwl · Building Useful Things" src="https://capsule-render.vercel.app/api?type=waving&color=0:1D4ED8,55:60A5FA,100:BFDBFE&height=190&section=header&text=yhwlwl&fontColor=FFFFFF&fontSize=50&fontAlignY=36&desc=Building%20Useful%20Things&descSize=17&descAlignY=63" />
-</p>
-
 # Hi, I'm yhwlwl 👋
 
 High school student at Chengdu No.7 High School  
@@ -43,12 +38,6 @@ I build tools for learning, campus services, full-stack systems, data-driven pro
     <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs?username=yhwlwl&layout=compact&langs_count=6&size_weight=0.5&count_weight=0.5&card_width=420&border_radius=12&custom_title=Languages%20Across%20Projects&theme=default" />
     <img width="420" alt="yhwlwl 的主要编程语言分布" src="https://github-readme-stats.vercel.app/api/top-langs?username=yhwlwl&layout=compact&langs_count=6&size_weight=0.5&count_weight=0.5&card_width=420&border_radius=12&custom_title=Languages%20Across%20Projects&theme=default" />
   </picture>
-</p>
-
-### 最近的 GitHub 活跃趋势
-
-<p align="center">
-  <img width="100%" alt="yhwlwl 最近 31 天的 GitHub 活跃曲线" src="https://github-readme-activity-graph.vercel.app/graph?username=yhwlwl&bg_color=FFFFFF&color=57606A&title_color=0969DA&line=0969DA&point=1F6FEB&area=true&area_color=DDEBFF&border_color=D0D7DE&radius=12&height=245&days=31&custom_title=Recent%20GitHub%20Activity" />
 </p>
 
 ## 精选项目
