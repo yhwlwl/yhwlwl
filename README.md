@@ -18,6 +18,23 @@ I build tools for learning, campus services, full-stack systems, data-driven pro
 - 数字图像水印、统计分析与交互式可视化；
 - 粒子系统与校园文化数字化表达。
 
+## GitHub 概览
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=yhwlwl&show_icons=true&include_all_commits=true&hide_rank=true&hide=contribs&card_width=420&border_radius=12&custom_title=GitHub%20Activity&theme=tokyonight" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api?username=yhwlwl&show_icons=true&include_all_commits=true&hide_rank=true&hide=contribs&card_width=420&border_radius=12&custom_title=GitHub%20Activity&theme=default" />
+    <img height="180" alt="yhwlwl 的 GitHub 活动统计：Stars、Commits、PRs 和 Issues" src="https://github-stats-extended.vercel.app/api?username=yhwlwl&show_icons=true&include_all_commits=true&hide_rank=true&hide=contribs&card_width=420&border_radius=12&custom_title=GitHub%20Activity&theme=default" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs?username=yhwlwl&layout=compact&langs_count=6&size_weight=0.5&count_weight=0.5&card_width=340&border_radius=12&custom_title=Languages%20Across%20Projects&theme=tokyonight" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/top-langs?username=yhwlwl&layout=compact&langs_count=6&size_weight=0.5&count_weight=0.5&card_width=340&border_radius=12&custom_title=Languages%20Across%20Projects&theme=default" />
+    <img height="180" alt="yhwlwl 的公开仓库主要编程语言分布" src="https://github-stats-extended.vercel.app/api/top-langs?username=yhwlwl&layout=compact&langs_count=6&size_weight=0.5&count_weight=0.5&card_width=340&border_radius=12&custom_title=Languages%20Across%20Projects&theme=default" />
+  </picture>
+</p>
+
+<sub>统计来自公开 GitHub 仓库，卡片会随数据变化而更新。语言分布按代码量与仓库数量加权，不代表语言熟练程度。</sub>
+
 ## 精选项目
 
 ### Score Tracker
