@@ -29,7 +29,7 @@ I build tools for learning, campus services, full-stack systems, data-driven pro
 </p>
 
 <p align="center">
-  <img width="680" alt="yhwlwl 的代码新增行、删除行与历史趋势" src="./metrics.plugin.lines.svg" />
+  <img width="680" alt="yhwlwl 的代码新增行、删除行与历史趋势" src="https://raw.githubusercontent.com/yhwlwl/yhwlwl/main/metrics.plugin.lines.svg?v=20261025-1" />
 </p>
 
 <p align="center">
