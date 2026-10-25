@@ -43,7 +43,7 @@ I build tools for learning, campus services, full-stack systems, data-driven pro
 ### 最近的 GitHub 活跃趋势
 
 <p align="center">
-  <img width="760" alt="yhwlwl 最近 31 天的 GitHub 活跃曲线" src="https://ghstats.dev/api/sparkline?username=yhwlwl&days=31&width=760&height=190&line_color=0969DA&fill_color=DBEAFE&border_radius=12&title=Recent%20GitHub%20Activity" />
+  <img width="850" alt="yhwlwl 最近 31 天每日 GitHub Contributions 活跃曲线，横轴日期，纵轴贡献次数" src="https://readme-stats-theta-sepia.vercel.app/api/activity-graph?username=yhwlwl&theme=light&days=31&line_color=%2360A5FA&area_color=%23DBEAFE" />
 </p>
 
 ## 精选项目
