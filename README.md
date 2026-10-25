@@ -40,6 +40,12 @@ I build tools for learning, campus services, full-stack systems, data-driven pro
   </picture>
 </p>
 
+### 最近的 GitHub 活跃趋势
+
+<p align="center">
+  <img width="760" alt="yhwlwl 最近 31 天的 GitHub 活跃曲线" src="https://ghstats.dev/api/sparkline?username=yhwlwl&days=31&width=760&height=190&line_color=0969DA&fill_color=DBEAFE&border_radius=12&title=Recent%20GitHub%20Activity" />
+</p>
+
 ## 精选项目
 
 ### Score Tracker
