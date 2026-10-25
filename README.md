@@ -20,20 +20,32 @@ I build tools for learning, campus services, full-stack systems, data-driven pro
 
 ## GitHub 概览
 
+<!-- 展示真实开发活动，隐藏 Stars / PR / Issues 等非重点数字。 -->
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=yhwlwl&show_icons=true&include_all_commits=true&hide_rank=true&hide=contribs&card_width=420&border_radius=12&custom_title=GitHub%20Activity&theme=tokyonight" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api?username=yhwlwl&show_icons=true&include_all_commits=true&hide_rank=true&hide=contribs&card_width=420&border_radius=12&custom_title=GitHub%20Activity&theme=default" />
-    <img height="180" alt="yhwlwl 的 GitHub 活动统计：Stars、Commits、PRs 和 Issues" src="https://github-stats-extended.vercel.app/api?username=yhwlwl&show_icons=true&include_all_commits=true&hide_rank=true&hide=contribs&card_width=420&border_radius=12&custom_title=GitHub%20Activity&theme=default" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs?username=yhwlwl&layout=compact&langs_count=6&size_weight=0.5&count_weight=0.5&card_width=340&border_radius=12&custom_title=Languages%20Across%20Projects&theme=tokyonight" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/top-langs?username=yhwlwl&layout=compact&langs_count=6&size_weight=0.5&count_weight=0.5&card_width=340&border_radius=12&custom_title=Languages%20Across%20Projects&theme=default" />
-    <img height="180" alt="yhwlwl 的公开仓库主要编程语言分布" src="https://github-stats-extended.vercel.app/api/top-langs?username=yhwlwl&layout=compact&langs_count=6&size_weight=0.5&count_weight=0.5&card_width=340&border_radius=12&custom_title=Languages%20Across%20Projects&theme=default" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=yhwlwl&show_icons=true&include_all_commits=true&show=contributions&hide=stars,prs,issues,contribs&hide_rank=true&card_width=420&border_radius=12&custom_title=All-time%20Contributions%20%26%20Commits&theme=tokyonight" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api?username=yhwlwl&show_icons=true&include_all_commits=true&show=contributions&hide=stars,prs,issues,contribs&hide_rank=true&card_width=420&border_radius=12&custom_title=All-time%20Contributions%20%26%20Commits&theme=default" />
+    <img width="440" alt="yhwlwl 的全时期 Contributions 与 Commits" src="https://github-stats-extended.vercel.app/api?username=yhwlwl&show_icons=true&include_all_commits=true&show=contributions&hide=stars,prs,issues,contribs&hide_rank=true&card_width=420&border_radius=12&custom_title=All-time%20Contributions%20%26%20Commits&theme=default" />
   </picture>
 </p>
 
-<sub>统计来自公开 GitHub 仓库，卡片会随数据变化而更新。语言分布按代码量与仓库数量加权，不代表语言熟练程度。</sub>
+<!-- Metrics 的 lines 插件：仓库代码新增行、删除行及历史变化。 -->
+<p align="center">
+  <img width="720" alt="yhwlwl 的 GitHub 代码新增、删除行数与历史变化统计" src="https://metrics.lecoq.io/yhwlwl?template=classic&base=repositories&plugin_lines=1&plugin_lines_sections=base%2Chistory&plugin_lines_history_limit=2" />
+</p>
+
+<details>
+<summary>编程语言分布（点击展开）</summary>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs?username=yhwlwl&layout=compact&langs_count=6&size_weight=0.5&count_weight=0.5&card_width=340&border_radius=12&custom_title=Languages%20Across%20Projects&theme=tokyonight" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/top-langs?username=yhwlwl&layout=compact&langs_count=6&size_weight=0.5&count_weight=0.5&card_width=340&border_radius=12&custom_title=Languages%20Across%20Projects&theme=default" />
+    <img height="180" alt="yhwlwl 的主要编程语言分布" src="https://github-stats-extended.vercel.app/api/top-langs?username=yhwlwl&layout=compact&langs_count=6&size_weight=0.5&count_weight=0.5&card_width=340&border_radius=12&custom_title=Languages%20Across%20Projects&theme=default" />
+  </picture>
+</p>
+</details>
+
+<sub>Contributions 表示 GitHub 记录的跨年份贡献次数，不等于提交次数；新增/删除行数来自公开仓库的历史差异统计，可能包含非源代码文件和协作者的更改，也不等于当前项目净代码量。第三方动态卡片的数据口径与缓存时间可能不同。</sub>
 
 ## 精选项目
 
