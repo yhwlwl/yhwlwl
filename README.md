@@ -22,9 +22,9 @@ I build tools for learning, campus services, full-stack systems, data-driven pro
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=yhwlwl&theme=tokyonight&border_radius=12" />
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=yhwlwl&theme=default&border_radius=12" />
-    <img width="500" alt="yhwlwl 的累计 GitHub 贡献数与贡献记录" src="https://streak-stats.demolab.com?user=yhwlwl&theme=default&border_radius=12" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=yhwlwl&show_icons=true&include_all_commits=true&hide=stars&hide_rank=true&border_radius=12&card_width=470&custom_title=GitHub%20Development%20Stats&theme=tokyonight" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=yhwlwl&show_icons=true&include_all_commits=true&hide=stars&hide_rank=true&border_radius=12&card_width=470&custom_title=GitHub%20Development%20Stats&theme=default" />
+    <img width="470" alt="yhwlwl 的 GitHub 统计，包括 Total Commits、PRs、Issues 和参与仓库数" src="https://github-readme-stats.vercel.app/api?username=yhwlwl&show_icons=true&include_all_commits=true&hide=stars&hide_rank=true&border_radius=12&card_width=470&custom_title=GitHub%20Development%20Stats&theme=default" />
   </picture>
 </p>
 
