@@ -7,13 +7,14 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
 WIDTH, HEIGHT = 760, 252
-BACKGROUND = "#0d1117"
-PANEL = "#161b22"
-BORDER = "#30363d"
-FOREGROUND = "#e6edf3"
-MUTED = "#8b949e"
-GREEN = "#3fb950"
-RED = "#f85149"
+BACKGROUND = "#ffffff"
+PANEL = "#ffffff"
+BORDER = "#d0d7de"
+FOREGROUND = "#0969da"
+MUTED = "#57606a"
+GREEN = "#1a7f37"
+RED = "#cf222e"
+TRACK = "#f6f8fa"
 FONT_REGULAR = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 FONT_BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
@@ -69,7 +70,7 @@ def render_frame(added, removed, repositories, fraction):
         number = sign + compact(round(quantity * eased))
         draw.text((x, 110), number, font=font(43, True), fill=color)
         y = 191
-        draw.rounded_rectangle((x, y, x + 308, y + 17), radius=8, fill=BACKGROUND)
+        draw.rounded_rectangle((x, y, x + 308, y + 17), radius=8, fill=TRACK)
         extent = round(308 * quantity / maximum * eased)
         if extent > 0:
             draw.rounded_rectangle((x, y, x + extent, y + 17),
